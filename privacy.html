@@ -38,12 +38,12 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="updated">Pet Health: Vaccine Records · Last updated 28 September 2026</p>
+<p class="updated">Pet Health: Vaccine Records · Last updated 3 October 2026</p>
 
 <div class="callout">
   <strong>In short:</strong> Pet Health does not collect your data. There is no account,
-  no server, and no analytics. Everything you enter stays on your device, in encrypted
-  storage, unless you choose to share or export it yourself.
+  no server, and no analytics. Everything you enter stays on your device, in Pet Health's own
+  private storage, unless you choose to share or export it yourself.
 </div>
 
 <h2>1. Who this applies to</h2>
@@ -74,9 +74,17 @@ information or pet information. Specifically, the app contains:</p>
   contacts and any photographs you take of documents — is written only to your own device.
 </p>
 <p>
-  This data is held in a database encrypted with SQLCipher (256-bit AES). The encryption key
-  is generated on your device and stored in the iOS Keychain or the Android Keystore, marked
-  so that it never leaves that device and is not included in cloud keychain sync.
+  This data is held in an ordinary database file inside Pet Health's own private storage area,
+  which the operating system keeps separate from every other app. It is protected by your
+  device's own encryption — on iPhone, by iOS Data Protection, which keeps the file unreadable
+  while the device is locked. Pet Health does not add any encryption of its own, and there is no
+  password or key for you to manage.
+</p>
+<p>
+  Because the records are stored this way, they are included in your device's own backup. If you
+  back up your iPhone to iCloud or to a computer and then restore it, or move to a new phone,
+  your pet's records come across with everything else. You can also save a backup file yourself
+  from Settings.
 </p>
 
 <h2>4. Device permissions</h2>
